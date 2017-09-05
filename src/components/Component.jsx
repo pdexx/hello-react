@@ -11,8 +11,8 @@ export default class Component extends React.Component {
     render() {
         return (
             <div className='component'>
-                <h2>Countdown: {this.props.count}</h2>
-                <button onClick={this.props.onReset}>Reset</button>
+                <h2>Myname: {this.props.name}</h2>
+                {/* <button onClick={this.props.onReset}>Reset</button> */}
             </div>
         );
     }
